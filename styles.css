@@ -1,0 +1,78 @@
+/* Styles for Portfolio */
+
+/** Styles across entire page **/
+body { font-family: 'Roboto', sans-serif; }
+
+@media (min-width: 950px) {
+    body {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/** The top heading **/
+#top-of-page {
+    /* Font */
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    
+    /* Borders & Margins */
+    padding: 1em;
+}
+
+#top-of-page p.subhead {
+    font-size: 24px;
+}
+
+/** The body **/
+#body-content {
+    /* Borders & Margins */
+    padding: 1em;
+}
+
+#body-content h1 {
+    /* Font */
+    font-weight: 100;
+    font-size: 40px;
+    
+    /* Borders & Margins */
+    padding-top: 1em;
+}
+
+#body-content h2 {
+    /* Font */
+    font-weight: 100;
+    font-size: 24px;
+}
+
+#body-content p {
+    /* Font */
+    font-size: 20px;
+    font-weight: 300;
+    
+    /* Borders & Margins */
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#body-content p.skills {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1.5em;
+}
+
+@media (max-width: 500px) {
+    #body-content p {
+        font-size: 12pt;
+        line-height: 120%;
+    }
+    
+    #body-content p.skills {
+        padding-top: 0.3em;
+        padding-bottom: 0.3em;
+    }
+}
+
+/** The footer **/
