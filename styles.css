@@ -1,7 +1,10 @@
 /* Styles for Portfolio */
 
 /** Styles across entire page **/
-body { font-family: 'Roboto', sans-serif; }
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FBFBFB;
+}
 
 @media (min-width: 950px) {
     body {
