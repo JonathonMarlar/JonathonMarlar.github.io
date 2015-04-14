@@ -29,6 +29,26 @@ body {
     font-size: 24px;
 }
 
+#top-of-page p.linkbar {
+    font-size: 24px;
+}
+
+#top-of-page p.linkbar a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#top-of-page p.linkbar a:hover {
+    color: #000000;
+    border-bottom: 1px solid;
+    border-bottom-color: red;
+}
+
+#top-of-page p.linkbar a.red:hover { border-bottom-color: #AF0000; }
+#top-of-page p.linkbar a.blue:hover { border-bottom-color: #0000AF; }
+#top-of-page p.linkbar a.yellow:hover { border-bottom-color: #AFAF00; }
+#top-of-page p.linkbar a.green:hover { border-bottom-color: #00AF00; }
+
 /** The body **/
 #body-content {
     /* Borders & Margins */
@@ -41,7 +61,7 @@ body {
     font-size: 40px;
     
     /* Borders & Margins */
-    padding-top: 1em;
+    /* padding-top: 1em; */
 }
 
 #body-content h2 {
@@ -78,4 +98,23 @@ body {
     }
 }
 
+#body-content a {
+    color: #00A4CD;
+    text-decoration: none;
+}
+
+#body-content a:hover {
+    color: #00CDFF;
+    border-bottom: 1px solid #00CDFF;
+}
+
+#work-exp, #projects, #collegiate {
+    display: none;
+}
+
 /** The footer **/
+#footer {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
