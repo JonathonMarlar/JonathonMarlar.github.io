@@ -3,6 +3,8 @@ html {
     overflow-y: scroll;
 }
 
+html, body { height: 100%; }
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18pt;
@@ -102,15 +104,21 @@ div.edu, div.skills, div.work {
 }
 
 div.edu {
-    background-image: url("../img/harrison-plaza.jpg");
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("../img/harrison-plaza.jpg");
 }
 
 div.skills {
-    background-image: url("../img/skills.jpg");
+    background-image:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("../img/skills.jpg");
 }
 
 div.work {
-    background-image: url("../img/algeo.jpg");
+    background-image:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("../img/algeo.jpg");
 }
 
 @media (min-width: 900px) {
