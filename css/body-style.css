@@ -84,6 +84,7 @@ nav {
 div.main-content {
     width: 100%;
     /* min-height: 250px; */
+    padding-top: 1em;
     padding-bottom: 1em;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px #101010;
@@ -91,7 +92,7 @@ div.main-content {
     z-index: 1;
 }
 
-div.edu, div.skills, div.work {
+div.edu, div.skills, div.work, div.head-shade {
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -105,20 +106,24 @@ div.edu, div.skills, div.work {
 
 div.edu {
     background-image: 
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
         url("../img/harrison-plaza.jpg");
 }
 
 div.skills {
     background-image:
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
         url("../img/skills.jpg");
 }
 
 div.work {
     background-image:
-        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
         url("../img/algeo.jpg");
+}
+
+div.head-shade {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 }
 
 @media (min-width: 900px) {
