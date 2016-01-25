@@ -1,0 +1,70 @@
+/** larger part changes to entire html tags **/
+html, body {
+	font-family: 'Roboto', sans-serif;
+	margin: auto;
+	overflow-x: hidden;
+}
+
+@media (min-width: 1200px) {
+	html, body {
+		width: 85%;
+	}
+}
+
+h1, h2, h3 {
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 42pt;
+}
+
+p, li {
+	font-size: 16pt;
+}
+
+div.col-md-8 {
+	padding: 2.5em;
+	color: white;
+}
+
+a, a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+/** page-specific classes to be applied to divs **/
+.education {
+	background-color: #39B54A;
+}
+
+.skills {
+	background-color: #29ABE2;
+}
+
+.projects {
+	background-color: #662D91;
+}
+
+.contact {
+	background-color: #C1272D;
+}
+
+
+/** unspecific classes that can be applied to anything **/
+.padded {
+	padding: 1.5em;
+}
+
+.vspace {
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+
+.img-shadow {
+	box-shadow: 0 0 8px #888;
+}
+
+.description {
+	font-size: 14pt;
+}
